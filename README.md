@@ -1,6 +1,8 @@
 # Personal Portfolio Website  
 [**View Live Site**](https://dvarshith.github.io/)
 
+<br/>
+
 A compact, responsive **portfolio** built with **HTML**, **CSS**, **JavaScript**, and **jQuery**. It showcases my background, projects, and ways to get in touch—perfect for visitors to quickly learn about my work.
 
 <br/>
