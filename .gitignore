@@ -1,0 +1,68 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# VSCode
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Test coverage
+coverage/
+*.lcov
+
+# Misc
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# dotenv environment variables
+.env
+.env.*
+
+# Build output
+/dist/
+/build/
+/out/
+
+# Other
+*.tgz 
