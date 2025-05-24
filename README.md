@@ -7,6 +7,17 @@ A modern, responsive **portfolio** website. This portfolio showcases my backgrou
 
 <br/>
 
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
+- [Setup & Usage](#setup--usage)
+- [Development](#development)
+- [License](#license)
+- [Contact](#contact)
+
+<br/>
+
 ## Project Structure
 ```
 portfolio/
@@ -66,7 +77,7 @@ portfolio/
 <br/>
 
 ## License
-This project is released under the `MIT License`. That means you’re free to use, modify, and distribute the code, but you do so at your own risk.
+This project is released under the `MIT License`. That means you're free to use, modify, and distribute the code, but you do so at your own risk.
 
 
 
