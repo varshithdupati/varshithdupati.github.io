@@ -66,14 +66,15 @@ portfolio/
 <br/>
 
 ## License
-This project is released under the `MIT License`. See the [LICENSE](LICENSE) file for details.
+This project is released under the `MIT License`. That means you’re free to use, modify, and distribute the code, but you do so at your own risk.
 
-<br/>
+
+
+ </br>
 
 ## Contact
-Author: Varshith Dupati  
-GitHub: [@dvarshith](https://github.com/dvarshith)  
-Email: dvarshith942@gmail.com  
-
-For questions or bug reports, please [open an issue](https://github.com/dvarshith/dvarshith.github.io/issues) on GitHub.
+Author: Varshith Dupati </br>
+GitHub: @dvarshith </br>
+Email: dvarshith942@gmail.com </br>
+Issues: Please open an issue on this repo if you have questions or find bugs. </br>
 
