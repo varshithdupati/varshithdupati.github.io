@@ -7,11 +7,6 @@ A modern, responsive **portfolio** website. This portfolio showcases my backgrou
 
 <br/>
 
-## Preview
-![Website Preview](https://github.com/user-attachments/assets/708508ad-7772-4e80-866e-c1a3f51c4795)
-
-<br/>
-
 ## Project Structure
 ```
 portfolio/
