@@ -1,5 +1,5 @@
 # Personal Portfolio Website  
-[**View Live Site**](https://dvarshith.github.io/)
+<a href="https://dvarshith.github.io/" target="_blank" rel="noopener noreferrer">**View Live Site**</a>
 
 <br/>
 
