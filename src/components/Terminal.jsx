@@ -194,9 +194,7 @@ function Terminal() {
         // Will be handled in the rendering logic
         break;
       default:
-        if (command !== "") {
-          setprevusedCommand(prevArray => [...prevArray, `bash: ${command}: command not found`]);
-        }
+        // The error message will be handled by renderCommandHistory
         break;
     }
   };
