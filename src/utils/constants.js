@@ -32,7 +32,7 @@ export const socialLinks = {
   resume: "https://drive.google.com/file/d/1QtnjPigPc6Q08Bb0_Lfx952x5SP_MXC3/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/varshith-dupati/",
   leetcode: "https://leetcode.com/u/VarshithDupati/",
-  source: "https://github.com/dvarshith/portfolio"
+  source: "https://github.com/dvarshith/dvarshith.github.io"
 };
 
 // User information
