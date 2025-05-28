@@ -2,7 +2,7 @@
   "name": "varshith-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dvarshith.github.io/",
+  "homepage": "https://dvarshith.github.io",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
