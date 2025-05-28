@@ -44,24 +44,24 @@ A modern, interactive **terminal-style portfolio** built with React. This unique
 ## Project Structure
 ```
 portfolio/
-├── public/             # Static assets and favicon files
-├── src/               # Source code
-│   ├── components/    # React components
+├── public/                  # Static assets and favicon files
+├── src/                     # Source code
+│   ├── components/          # React components
 │   │   ├── Terminal.jsx     # Main terminal interface
 │   │   └── MatrixRain.jsx   # Background animation
-│   ├── styles/        # CSS stylesheets
+│   ├── styles/              # CSS stylesheets
 │   │   ├── index.css        # Global styles
 │   │   └── terminal.css     # Terminal-specific styles
-│   ├── utils/         # Utility functions and constants
+│   ├── utils/               # Utility functions and constants
 │   │   ├── constants.js     # Application constants
 │   │   └── typewriter.js    # Typewriter effect utility
-│   ├── App.jsx        # Main App component
-│   └── index.js       # Application entry point
-├── package.json       # Project dependencies and scripts
-├── .gitignore        # Git ignore rules
-├── LICENSE           # MIT License
-├── README.md         # Project documentation
-└── DEVELOPMENT.md    # Development guide
+│   ├── App.jsx              # Main App component
+│   └── index.js             # Application entry point
+├── package.json             # Project dependencies and scripts
+├── .gitignore               # Git ignore rules
+├── LICENSE                  # MIT License
+├── README.md                # Project documentation
+└── DEVELOPMENT.md           # Development guide
 ```
 
 <br/>
