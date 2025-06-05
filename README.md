@@ -1,5 +1,5 @@
 # Personal Portfolio Website  
-[**View Live Site**](https://dvarshith.github.io/)
+[**View Live Site**](https://varshithdupati.github.io/)
 
 <br/>
 
