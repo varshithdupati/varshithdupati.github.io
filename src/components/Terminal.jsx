@@ -144,6 +144,28 @@ function Terminal() {
     };
   }, [commandHistory, historyIndex, isHackRunning]);
 
+  // Utility function to shuffle an array (Fisher-Yates) and avoid last N picked indexes
+  const lastPickedIndexes = {};
+  const HISTORY_SIZE = 4;
+  function getRandomItem(arr, key) {
+    if (arr.length === 1) return arr[0];
+    if (!lastPickedIndexes[key]) lastPickedIndexes[key] = [];
+    let idx;
+    let attempts = 0;
+    do {
+      idx = Math.floor(Math.random() * arr.length);
+      attempts++;
+      // If the array is too small, break after a few attempts
+      if (attempts > 10) break;
+    } while (arr.length > HISTORY_SIZE && lastPickedIndexes[key].includes(idx));
+    // Update history
+    lastPickedIndexes[key].push(idx);
+    if (lastPickedIndexes[key].length > HISTORY_SIZE) {
+      lastPickedIndexes[key].shift();
+    }
+    return arr[idx];
+  }
+
   // Handle individual commands
   const handleCommand = (command) => {
     switch (command) {
@@ -163,14 +185,14 @@ function Terminal() {
         window.open(socialLinks.leetcode, '_blank');
         break;
       case "quote":
-        const randomQuote = programmingQuotes[Math.floor(Math.random() * programmingQuotes.length)];
+        const randomQuote = getRandomItem(programmingQuotes, 'programmingQuotes');
         setprevusedCommand(prevArray => [...prevArray, randomQuote]);
         break;
       case "hack":
         executeHackSequence();
         break;
       case "matrix":
-        const randomMatrixQuote = matrixQuotes[Math.floor(Math.random() * matrixQuotes.length)];
+        const randomMatrixQuote = getRandomItem(matrixQuotes, 'matrixQuotes');
         setprevusedCommand(prevArray => [...prevArray, randomMatrixQuote]);
         break;
       case "clear":

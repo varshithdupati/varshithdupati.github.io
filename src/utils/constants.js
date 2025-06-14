@@ -1,15 +1,40 @@
 // Programming quotes for the quote command
 export const programmingQuotes = [
-  "Debugging is like being the detective in a crime movie where you're also the murderer.",
-  "The best thing about a boolean is even if you are wrong, you are only off by a bit.",
-  "Why do programmers prefer dark mode? Because light attracts bugs!",
-  "Programming is like sex: One mistake and you have to support it for the rest of your life.",
-  "I'm not lazy, I'm just conserving energy.",
-  "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code.",
-  "Talk is cheap. Show me the code. - Linus Torvalds",
+  "The best error message is the one that never shows up. - Paul Barham",
+  "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. - Martin Fowler",
   "First, solve the problem. Then, write the code. - John Johnson",
+  "Talk is cheap. Show me the code. - Linus Torvalds",
   "Code is like humor. When you have to explain it, it's bad. - Cory House",
-  "A programmer is just a tool which converts caffeine into code."
+  "The most damaging phrase in the language is 'We've always done it this way.' - Grace Hopper",
+  "Programming isn't about what you know; it's about what you can figure out. - Chris Pine",
+  "The only way to learn a new programming language is by writing programs in it. - Dennis Ritchie",
+  "Good code is its own best documentation. - Steve McConnell",
+  "Simplicity is the ultimate sophistication. - Leonardo da Vinci",
+  "The best way to predict the future is to implement it. - David Heinemeier Hansson",
+  "Make it work, make it right, make it fast. - Kent Beck",
+  "Premature optimization is the root of all evil. - Donald Knuth",
+  "The computer was born to solve problems that did not exist before. - Bill Gates",
+  "Software is a great combination between artistry and engineering. - Bill Gates",
+  "The most important single aspect of software development is to be clear about what you are trying to build. - Bjarne Stroustrup",
+  "It's not a bug – it's an undocumented feature. - Anonymous",
+  "The best programs are written for people to read, and only incidentally for machines to execute. - Harold Abelson",
+  "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code. - Dan Salomon",
+  "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning. - Rick Cook",
+  "The only way to do great work is to love what you do. - Steve Jobs",
+  "Innovation distinguishes between a leader and a follower. - Steve Jobs",
+  "Stay hungry, stay foolish. - Steve Jobs",
+  "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
+  "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill",
+  "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt",
+  "Quality is not an act, it is a habit. - Aristotle",
+  "The way to get started is to quit talking and begin doing. - Walt Disney",
+  "It always seems impossible until it's done. - Nelson Mandela",
+  "The best time to plant a tree was 20 years ago. The second best time is now. - Chinese Proverb",
+  "Don't watch the clock; do what it does. Keep going. - Sam Levenson",
+  "The only person you are destined to become is the person you decide to be. - Ralph Waldo Emerson",
+  "Believe you can and you're halfway there. - Theodore Roosevelt",
+  "The future depends on what you do today. - Mahatma Gandhi",
+  "Excellence is not a skill. It's an attitude. - Ralph Marston"
 ];
 
 // Matrix movie quotes for the matrix command
@@ -23,7 +48,11 @@ export const matrixQuotes = [
   "I'm going to hang up this phone, and then I'm going to show these people what you don't want them to see.",
   "The Matrix is a system, Neo. That system is our enemy.",
   "Welcome to the real world.",
-  "What is real? How do you define 'real'?"
+  "What is real? How do you define 'real'?",
+  "Unfortunately, no one can be told what the Matrix is. You have to see it for yourself.",
+  "Choice is an illusion created between those with power and those without.",
+  "Fate, it seems, is not without a sense of irony.",
+  "To deny our own impulses is to deny the very thing that makes us human."
 ];
 
 // Social links and URLs
